@@ -1,0 +1,392 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* NAV CONTAINER */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* WEBSITE TITLE */
+nav .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00d9ff;
+    letter-spacing: 1px;
+}
+
+/* MENU BAR */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* MENU ITEMS */
+nav ul li {
+    display: inline-block;
+}
+
+/* LINKS */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+/* HOVER EFFECT */
+nav ul li a:hover {
+    background: #00d9ff;
+    color: black;
+    transform: scale(1.1);
+}
+/
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #00d9ff;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 280px;
+    padding: 15px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(0, 217, 255, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #00d9ff;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #00d9ff;
+    margin-bottom: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: rgba(0, 217, 255, 0.3);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+button, .btn {
+    background: #00d9ff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover, .btn:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADER / NAVIGATION BAR
+========================= */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* NAV CONTAINER */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* WEBSITE TITLE */
+nav .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00d9ff;
+    letter-spacing: 1px;
+}
+
+/* MENU BAR */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* MENU ITEMS */
+nav ul li {
+    display: inline-block;
+}
+
+/* LINKS */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+/* HOVER EFFECT */
+nav ul li a:hover {
+    background: #00d9ff;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* =========================
+   HERO SECTION (HOME PAGE)
+========================= */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #00d9ff;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* =========================
+   CARDS (FOR SCIENTISTS)
+========================= */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 280px;
+    padding: 15px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(0, 217, 255, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #00d9ff;
+}
+
+/* =========================
+   TEXT CONTENT
+========================= */
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #00d9ff;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   TABLE STYLING
+========================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: rgba(0, 217, 255, 0.3);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+button, .btn {
+    background: #00d9ff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover, .btn:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
